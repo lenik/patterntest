@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test outputs
+*.html
+*.pdf
+*.tex
+*.csv
+*.md
+*.txt
+!README.md
+!LOGGING.md
+!Console-Dev.md
+!index.md
+!example.dir
+
+# Temporary files
+*.tmp
+*.log
+/tmp/
+/temp/
+
+# Debian packaging
+debian/files
+debian/patterntest
+debian/*-stamp
+debian/*.substvars
+debian/*.log
+debian/*.debhelper
+debian/*.debhelper.log
+debian/*.tar.gz
+debian/*.dsc
+debian/*.changes
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+ex/
+*.tar
+

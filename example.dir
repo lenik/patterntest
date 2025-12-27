@@ -1,0 +1,45 @@
+dir1/
+    file1
+    file1.txt
+    file1.jpg
+    file1.png
+    some subdir/
+        file2
+        file2.txt
+        file3
+        file3.log
+        nested/
+            deepfile
+            deepfile.txt
+    file3
+    .hidden
+    .hidden.txt
+    config.sys
+    file.txt
+    file.txt~
+    cat.png
+    dog.png
+    file.jpg
+    file.png
+    file.+(jpg|png)
+dir2/
+    file4
+    file4.txt
+    subdir2/
+        file5
+        file5.txt
+    .hidden2
+dir3/
+    a_file
+    b_file
+    c_file
+    z_file
+    file_1
+    file_2
+    file_3
+    test123
+    test456
+    test789
+rootfile
+.hidden_root
+file_root.txt

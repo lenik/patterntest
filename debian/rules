@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python3
+
+override_dh_auto_install:
+	dh_auto_install
+	# Install additional files
+	install -D -m 755 dirunpack $(DESTDIR)/usr/bin/dirunpack
+	install -D -m 644 example.dir $(DESTDIR)/usr/share/patterntest/example.dir
+	install -D -m 644 README.md $(DESTDIR)/usr/share/doc/patterntest/README.md
+	install -D -m 644 LOGGING.md $(DESTDIR)/usr/share/doc/patterntest/LOGGING.md
+	install -D -m 644 Console-Dev.md $(DESTDIR)/usr/share/doc/patterntest/Console-Dev.md
+	install -D -m 644 debian/patterntest.appdata.xml $(DESTDIR)/usr/share/metainfo/patterntest.appdata.xml
+
+override_dh_python3:
+	dh_python3 --shebang=/usr/bin/python3
+

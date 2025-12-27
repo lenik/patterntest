@@ -1,0 +1,9 @@
+patterntest (1.0.0) unstable; urgency=medium
+
+  * Initial release
+  * Pattern testing for tar, rsync, find, and glob
+  * Multiple report formats (text, HTML, LaTeX, PDF, CSV, Markdown)
+  * Comprehensive test suite for pattern matching
+
+ -- Lenik (谢继雷) <lenik@bodz.net>  Sat, 28 Dec 2025 00:00:00 +0000
+

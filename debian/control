@@ -1,0 +1,22 @@
+Source: patterntest
+Section: utils
+Priority: optional
+Maintainer: Lenik <patterntest@bodz.net>
+Build-Depends: debhelper-compat (= 13), python3-all
+Standards-Version: 4.6.0
+Homepage: https://github.com/lenik/patterntest
+
+Package: patterntest
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, tar, rsync, findutils
+Description: Pattern matching test tool for command-line utilities
+ Pattern Test helps verify how different tools (tar, rsync, find, glob)
+ handle pattern matching syntaxes including wildcards, regex, extended
+ globs, character sets, and path patterns.
+ .
+ Features:
+  - Test pattern matching for multiple tools
+  - Support for various pattern types
+  - Multiple output formats (text, HTML, LaTeX, PDF, CSV, Markdown)
+  - Detailed test reports with expected vs actual matches
+

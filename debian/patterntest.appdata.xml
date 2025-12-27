@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>com.github.lenik.patterntest</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>Pattern Test</name>
+  <summary>Pattern matching test tool for command-line utilities</summary>
+  <description>
+    <p>
+      Pattern Test is a comprehensive testing tool that helps verify how different
+      command-line utilities (tar, rsync, find, glob) handle various pattern matching
+      syntaxes including wildcards, regular expressions, extended globs, character sets,
+      and path patterns.
+    </p>
+    <p>
+      Features:
+    </p>
+    <ul>
+      <li>Test pattern matching for multiple tools (tar, rsync, find, glob)</li>
+      <li>Support for various pattern types (wildcards, regex, extended globs, character sets, path patterns)</li>
+      <li>Multiple output formats (text, HTML, LaTeX, PDF, CSV, Markdown)</li>
+      <li>Detailed test reports with expected vs actual matches</li>
+      <li>Flexible logging with multiple verbosity levels</li>
+      <li>Color-coded output for better readability</li>
+    </ul>
+    <p>
+      This tool is particularly useful for developers and system administrators who need
+      to understand and verify pattern matching behavior across different command-line tools.
+    </p>
+  </description>
+  <url type="homepage">https://github.com/lenik/patterntest</url>
+  <developer_name>Lenik</developer_name>
+  <update_contact>patterntest@bodz.net</update_contact>
+  <provides>
+    <binary>patterntest</binary>
+  </provides>
+  <releases>
+    <release version="1.0.0" date="2025-12-28">
+      <description>
+        <p>Initial release</p>
+        <ul>
+          <li>Pattern testing for tar, rsync, find, and glob</li>
+          <li>Multiple report formats (text, HTML, LaTeX, PDF, CSV, Markdown)</li>
+          <li>Comprehensive test suite for pattern matching</li>
+          <li>Custom logging framework with color support</li>
+          <li>Console application development guide</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>Development</category>
+    <category>Utility</category>
+    <category>ConsoleOnly</category>
+  </categories>
+  <keywords>
+    <keyword>pattern</keyword>
+    <keyword>matching</keyword>
+    <keyword>test</keyword>
+    <keyword>tar</keyword>
+    <keyword>rsync</keyword>
+    <keyword>find</keyword>
+    <keyword>glob</keyword>
+    <keyword>regex</keyword>
+    <keyword>wildcard</keyword>
+  </keywords>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-desecration">none</content_attribute>
+    <content_attribute id="violence-slavery">none</content_attribute>
+    <content_attribute id="violence-worship">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-homosexuality">none</content_attribute>
+    <content_attribute id="sex-prostitution">none</content_attribute>
+    <content_attribute id="sex-adultery">none</content_attribute>
+    <content_attribute id="sex-appearance">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+</component>
